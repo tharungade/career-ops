@@ -1,0 +1,15 @@
+description = "Process pending URLs from pipeline inbox"
+
+prompt = """
+Process pending job URLs from data/pipeline.md using career-ops pipeline mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/pipeline.md` (pipeline processing instructions)
+4. `data/pipeline.md` (pending URLs)
+5. `cv.md` (candidate CV)
+6. `config/profile.yml` (candidate identity)
+
+Then process each pending URL through the evaluation pipeline.
+"""

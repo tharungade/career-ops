@@ -1,0 +1,11 @@
+description = "Deep research about a company"
+
+prompt = """
+Deep research about company using career-ops deep mode.
+
+Read `modes/deep.md` for research instructions.
+
+Company/topic to research:
+
+{{args}}
+"""

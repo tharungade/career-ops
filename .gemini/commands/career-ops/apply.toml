@@ -1,0 +1,18 @@
+description = "Live application assistant"
+
+prompt = """
+Application assistant using career-ops apply mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/apply.md` (application instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+
+IMPORTANT: NEVER submit the application. Fill forms and draft answers, but STOP before clicking Submit.
+
+Form data/context:
+
+{{args}}
+"""

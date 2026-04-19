@@ -1,0 +1,18 @@
+description = "Generate ATS-optimized CV PDF"
+
+prompt = """
+Generate ATS-optimized CV using career-ops pdf mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/pdf.md` (PDF generation instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+6. `article-digest.md` (proof points, if exists)
+7. `templates/cv-template.html` (HTML template)
+
+Then generate the PDF using: node generate-pdf.mjs
+
+{{args}}
+"""

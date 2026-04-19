@@ -1,0 +1,16 @@
+description = "LinkedIn power move - find contacts and draft message"
+
+prompt = """
+LinkedIn outreach for company/role using career-ops contacto mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/contacto.md` (outreach instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+
+Target company/role:
+
+{{args}}
+"""

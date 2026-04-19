@@ -1,0 +1,11 @@
+description = "Application status overview"
+
+prompt = """
+Show application tracker status using career-ops tracker mode.
+
+Read these files:
+1. `modes/tracker.md` (tracker instructions)
+2. `data/applications.md` (application tracker data)
+
+Then display the current application status overview.
+"""

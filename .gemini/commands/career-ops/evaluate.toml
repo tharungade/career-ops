@@ -1,0 +1,17 @@
+description = "Evaluate job offer (A-F scoring, no auto PDF)"
+
+prompt = """
+Evaluate the following job description using career-ops oferta mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/oferta.md` (evaluation instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+6. `article-digest.md` (proof points, if exists)
+
+Job description to evaluate:
+
+{{args}}
+"""

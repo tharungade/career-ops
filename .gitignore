@@ -35,5 +35,8 @@ bun.lock
 # Claude Code local
 .claude/settings.local.json
 .claude/memory/
+
+# Gemini CLI local
+.gemini/settings.json
 career-dashboard
 package-lock.json

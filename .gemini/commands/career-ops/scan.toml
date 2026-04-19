@@ -1,0 +1,15 @@
+description = "Scan job portals and discover new offers"
+
+prompt = """
+Scan job portals for new offers using career-ops scan mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/scan.md` (scanning instructions)
+4. `portals.yml` (portal and company configuration)
+5. `data/scan-history.tsv` (dedup history, if exists)
+6. `config/profile.yml` (candidate identity)
+
+Then execute the scanning workflow as described in the mode file.
+"""

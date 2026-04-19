@@ -1,0 +1,16 @@
+description = "Batch processing with parallel workers"
+
+prompt = """
+Batch processing using career-ops batch mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/batch.md` (batch processing instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+
+Then execute the batch workflow as described in the mode file.
+
+{{args}}
+"""

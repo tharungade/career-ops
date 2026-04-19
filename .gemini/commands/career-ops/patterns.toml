@@ -1,0 +1,16 @@
+description = "Analyze rejection patterns and improve targeting"
+
+prompt = """
+Analyze rejection patterns using career-ops patterns mode.
+
+Read these files first:
+1. `modes/patterns.md` (pattern analysis instructions)
+2. `data/applications.md` (application tracker data)
+3. `config/profile.yml` (candidate identity and targets)
+
+Then run: node analyze-patterns.mjs
+
+Analyze the output and provide actionable recommendations for improving targeting.
+
+{{args}}
+"""

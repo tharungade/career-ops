@@ -1,0 +1,14 @@
+description = "Evaluate portfolio project idea"
+
+prompt = """
+Evaluate the following portfolio project using career-ops project mode.
+
+Read these files first:
+1. `modes/project.md` (project evaluation instructions)
+2. `config/profile.yml` (candidate identity and targets)
+3. `modes/_profile.md` (user customizations, if exists)
+
+Project idea to evaluate:
+
+{{args}}
+"""

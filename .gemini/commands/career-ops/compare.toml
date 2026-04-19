@@ -1,0 +1,16 @@
+description = "Compare and rank multiple job offers"
+
+prompt = """
+Compare the following job offers using career-ops ofertas mode.
+
+Read these files first:
+1. `modes/_shared.md` (system rules and scoring)
+2. `modes/_profile.md` (user customizations, if exists)
+3. `modes/ofertas.md` (comparison instructions)
+4. `cv.md` (candidate CV)
+5. `config/profile.yml` (candidate identity)
+
+Offers to compare:
+
+{{args}}
+"""
